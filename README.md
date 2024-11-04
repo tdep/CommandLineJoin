@@ -1,4 +1,4 @@
-# Command Line Join
+# CommandLineJoin
 
 A command line program used to join two `.csv` files on a shared key. 
 
@@ -6,6 +6,12 @@ A command line program used to join two `.csv` files on a shared key.
 
 This program is an assignment for a Database course I am taking as part of my MS in Computer Science. The task is to 
 write a command line program which joins two `.csv` files, taking inspiration from the `$join` command in Linux.
+
+## To Run
+Using a python interpreter, run `python -i command-line-join-app.py` in the same directory as both `.csv` files.
+
+## Output
+This program will generate a new `.csv` file in the same directory when run.
 
 ## Inputs
 
@@ -48,3 +54,6 @@ a better time complexity result of O(<em><b>N <sub>log</sub>N</b></em> ) since a
 - **Hash Map Join** - The most complex of the three, can be the most efficient provided that the hashing is balanced.
 Has the disadvantage of requiring more memory as a separate hash table is generated, but overall efficient for large 
 datasets with a best-case time complexity of O(<b><em>N</em></b> ).
+
+## License
+CommandLineJoin is licensed under the GNU General Public License (see `LICENSE`).
